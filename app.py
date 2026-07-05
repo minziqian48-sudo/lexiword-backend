@@ -22,6 +22,7 @@ CORS(app, origins=[
     'https://lexiword.vercel.app',
     'https://lexiword.vercel.com',
     'https://0628d07533d54e8c9d6df95c5ee7e2a8.app.codebuddy.work',
+    'https://lexiword-backend.onrender.com',
 ])
 
 DATABASE = os.environ.get('DATABASE_PATH', 'lexiword.db')
